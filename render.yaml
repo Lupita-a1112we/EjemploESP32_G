@@ -2,11 +2,11 @@ services:
   - type: web
     name: pryMongoEsp32
     runtime: python
-    repo: https://github.com/Lupita-a1112we/EjemploESP32_G.git
+    repo: https://github.com/Lupita-a1112we/Ejem_ESP32.git
     plan: free
     envVars:
       - key: MONGO_URI
-        value: mongodb+srv://UrielAlfonso:kRtCAJkaAuOpIpOJ@cluster0.xrixs.mongodb.net/BasePryEsp32?retryWrites=true&w=majority&appName=Cluster0
+        value: mongodb+srv://lupitajacinto1012:Lupi12345@cluster0.cxpd12p.mongodb.net/?retryWrites=true&w=majority
     region: oregon
     buildCommand: pip install -r requirements.txt
     startCommand: python app.py
